@@ -1,45 +1,27 @@
-# MP3 Playback Program Setup Guide
+# The Vital Habit of Distant Gazing: Easing Eye Strain Every 20 Minutes
 
-1. **Install Libraries:**
-   - Ensure Python is installed and run:
-     ```bash
-     pip install -r requirements.txt
-     ```
+In our screen-driven lives, prolonged focus on screens often leads to eye strain known as "digital eye strain" or "computer vision syndrome." A simple yet effective remedy is consciously gazing into the distance, approximately 200 meters away, every twenty minutes.
 
-2. **Prepare Python Script:**
-   - Copy the script to a `.py` file (e.g., `mp3_player.py`).
+## Understanding the Impact
 
-3. **Download MP3 File:**
-   - Place the desired MP3 file in the script's directory, named "sound.mp3".
+Staring at screens causes dry eyes, blurred vision, headaches, and fatigue. Distant gazing, for about 20 seconds, at a distant point relaxes the eyes and lessens strain.
 
-4. **Run the Script:**
-   - Execute the script with `python mp3_player.py`.
+## Benefits
 
-## Task Scheduler Setup
+1. **Relaxed Eye Muscles:** Shifting focus reduces eye muscle strain.
+2. **Natural Blinking:** Encourages frequent blinking, preventing dryness.
+3. **Improved Circulation:** Enhances eye health by increasing blood flow.
+4. **Reduced Fatigue:** Breaks with distant glances alleviate eye tiredness.
 
-1. **Open Task Scheduler:**
-   - Press `Win + R`, type `taskschd.msc`, and press Enter.
+## Less Dependency on Glasses
 
-2. **Create a New Task:**
-   - Name it (e.g., "MP3 Player Task").
+Constant near-focused tasks contribute to corrective eyewear usage. Practicing distant gazing may reduce this dependency over time.
 
-3. **Set Trigger:**
-   - Choose when the task starts (e.g., "At log on").
-   - Repeat every 20 minutes.
+## Implementation
 
-4. **Configure Action:**
-   - Use Python (`python.exe`) as the program.
-   - Set script path as the argument (`mp3_player.py`).
-   - Start in the script's directory.
+- **Set Reminders:** Use timers or apps to prompt regular breaks.
+- **20-20-20 Rule:** Every 20 minutes, gaze 20 feet away for 20 seconds.
 
-5. **Adjust Settings:**
-   - Configure additional conditions or notifications as needed.
+## Conclusion
 
-6. **Testing and Saving:**
-   - Test the task to ensure it works as expected.
-   - Save the task.
-
-### Note:
-Press "Shift + L" to stop playback as specified in the script.
-
-This setup plays the MP3 file and stops it after 20 minutes. Customize settings as required.
+In our screen-dominated era, prioritizing eye health is crucial. Integrating the simple practice of distant gazing can alleviate strain, potentially lessening the need for corrective eyewear. Embrace these habits for vibrant and healthy eyes. The installation process is gonna be more user-friendly overtime.
