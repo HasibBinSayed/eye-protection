@@ -1,4 +1,5 @@
 # The Vital Habit of Distant Gazing: Easing Eye Strain Every 20 Minutes
+      ##check wiki for Installation Instructions 
 
 In our screen-driven lives, prolonged focus on screens often leads to eye strain known as "digital eye strain" or "computer vision syndrome." A simple yet effective remedy is consciously gazing into the distance, approximately 200 meters away, every twenty minutes.
 
