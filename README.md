@@ -27,4 +27,4 @@ Constant near-focused tasks contribute to corrective eyewear usage. Practicing d
 
 In our screen-dominated era, prioritizing eye health is crucial. Integrating the simple practice of distant gazing can alleviate strain, potentially lessening the need for corrective eyewear. Embrace these habits for vibrant and healthy eyes. The installation process is gonna be more user-friendly overtime.
 
-###            Check wiki for Installation Guide
+###            Check wiki for [Installation Guide](https://github.com/HasibBinSayed/eye-protection/wiki/Installation-Guide)
