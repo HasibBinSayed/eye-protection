@@ -1,6 +1,7 @@
 from gtts import gTTS
 import tkinter as tk
 from tkinter import filedialog
+from pydub import AudioSegment  # Import AudioSegment from pydub
 
 def text_to_wav():
     text = text_entry.get("1.0", "end-1c")  # Retrieve text from the input field
@@ -8,10 +9,8 @@ def text_to_wav():
     if text and filename:  # Check if text and filename are provided
         tts = gTTS(text=text, lang='en')  # Create a gTTS object
         tts.save("temp.mp3")  # Save the generated speech as a temporary MP3 file
-        # Convert the temporary MP3 file to WAV
-        sound = AudioSegment.from_mp3("temp.mp3")
+        sound = AudioSegment.from_mp3("temp.mp3")  # Load the temporary MP3 file
         sound.export(filename, format="wav")  # Save the converted WAV file
-        os.remove("temp.mp3")  # Remove the temporary MP3 file
         status_label.config(text=f"Text converted to WAV. Saved as '{filename}'")
     else:
         status_label.config(text="Please provide text and choose a filename!")
